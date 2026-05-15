@@ -1,0 +1,27 @@
+# Private data — never commit
+portfolio.json
+trading_memory.md
+*.private.*
+
+# Generated universe data — regenerate from refresh_universe.py
+universe/
+universe.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local ad-hoc scripts
+scripts/_macify_*.py
+scripts/_*.py
+!scripts/refresh_universe.py
+!scripts/fetch_report.py

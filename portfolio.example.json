@@ -1,0 +1,21 @@
+{
+  "_comment": "Live portfolio snapshot. Copy to portfolio.json (gitignored) and fill in real data. Used by /trade portfolio.",
+  "last_updated": "YYYY-MM-DD",
+  "base_currency": "USD",
+  "stocks": [
+    {"ticker": "AAPL", "shares": 0, "cost_basis_per_share": 0.00, "notes": "example — replace with your holdings"},
+    {"ticker": "MSFT", "shares": 0, "cost_basis_per_share": 0.00, "notes": ""},
+    {"ticker": "2330.TW", "shares": 0, "cost_basis_per_share": 0.00, "notes": "TW ADR uses .TW suffix"}
+  ],
+  "bonds": [
+    {"id": "EXAMPLE", "name": "Example bond — replace or remove", "par_value": 0, "cost_basis": 0.00, "market_value": 0.00, "rating": "AA+/Aa1"}
+  ],
+  "cash_usd": 0.00,
+  "watchlist": ["SCHD", "BRK.B", "COST", "VOO", "QQQ"],
+  "constraints": {
+    "max_single_stock_pct": 25,
+    "min_cash_reserve_usd": 2000,
+    "tax_lot_method": "FIFO",
+    "account_type": "taxable"
+  }
+}
